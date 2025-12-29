@@ -1,13 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/config-server" name="config-server">
+                <projects>
+                  <project path="$PROJECT_DIR$/config-server" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/eureka-server" name="eureka-server">
+                <projects>
+                  <project path="$PROJECT_DIR$/eureka-server" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/gateway" name="gateway">
+                <projects>
+                  <project path="$PROJECT_DIR$/gateway" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/mIcro-smtp" name="mIcro-smtp">
+                <projects>
+                  <project path="$PROJECT_DIR$/mIcro-smtp" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/REST" name="REST">
+                <projects>
+                  <project path="$PROJECT_DIR$/REST" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/REST" />
+            <option value="$PROJECT_DIR$/config-server" />
+            <option value="$PROJECT_DIR$/eureka-server" />
+            <option value="$PROJECT_DIR$/gateway" />
+            <option value="$PROJECT_DIR$/mIcro-smtp" />
           </set>
         </option>
       </GradleProjectSettings>

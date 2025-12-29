@@ -1,1 +1,6 @@
 rootProject.name = 'SpringCloudMicroContainer'
+includeBuild("eureka-server")
+includeBuild("REST")
+includeBuild("gateway")
+includeBuild("mIcro-smtp")
+includeBuild("config-server")

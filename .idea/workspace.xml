@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cff4397a-c9a0-4345-b23c-675ff760df42" name="Changes" comment="урааааааааааааааааааааааааааааа">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/REST/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/REST/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/REST/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/REST/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/REST/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/REST/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/REST/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/REST/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/REST/src/main/java/org/example/rest/RESTapi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/REST/src/main/java/org/example/rest/controller/UserApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/REST/src/main/java/org/example/rest/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/REST/src/main/java/org/example/rest/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/REST/src/main/java/org/example/rest/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/REST/src/main/java/org/example/rest/event/KafkaProducerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/REST/src/main/java/org/example/rest/event/UserEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/REST/src/main/java/org/example/rest/hateoas/UserAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/REST/src/main/java/org/example/rest/repo/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/REST/src/main/java/org/example/rest/service/UserApiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/REST/src/main/java/org/example/rest/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/REST/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/REST/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/java/org/example/configserver/ConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/config/REST.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/config/gateway.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/config/mIcro-smtp.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/org/example/gateway/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/org/example/gateway/falback/GatewayFallbackController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mIcro-smtp/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mIcro-smtp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mIcro-smtp/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mIcro-smtp/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mIcro-smtp/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mIcro-smtp/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mIcro-smtp/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mIcro-smtp/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mIcro-smtp/src/main/java/org/example/microsmtp/MIcroSmtpApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mIcro-smtp/src/main/java/org/example/microsmtp/event/UserEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mIcro-smtp/src/main/java/org/example/microsmtp/event/kafkaConsumerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mIcro-smtp/src/main/java/org/example/microsmtp/service/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mIcro-smtp/src/main/java/org/example/microsmtp/service/KafkaListenerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mIcro-smtp/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/REST">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/api-gateway">
+      <ProjectState>
+        <option name="isInclusion" value="true" />
+      </ProjectState>
+    </projectState>
+    <projectState path="$PROJECT_DIR$/config-server">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/eureka-client">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/eureka-client/gateway">
+      <ProjectState>
+        <option name="isInclusion" value="true" />
+      </ProjectState>
+    </projectState>
+    <projectState path="$PROJECT_DIR$/eureka-server">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/gateway">
+      <ProjectState>
+        <option name="isInclusion" value="true" />
+      </ProjectState>
+    </projectState>
+    <projectState path="$PROJECT_DIR$/mIcro-smtp">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/rest-controller">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/eureka-server">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SpringCloudMicroContainer" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dmitrykondrashov000&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dmitrykondrashov000/SpringCloudContainerMicro.git&quot;,
+    &quot;accountId&quot;: &quot;4185bab6-4f2d-46a1-a129-61e198c023aa&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="37W3qtLGnznnNUdKS9fuXMhmRnJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Gradle.Build REST.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build SpringCloudMicroContainer.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build eureka-client.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build eureka-server.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringCloudMicroContainer [:REST:build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringCloudMicroContainer [:REST:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringCloudMicroContainer [:gateway:build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringCloudMicroContainer [:mIcro-smtp:build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringCloudMicroContainer [:mIcro-smtp:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringCloudMicroContainer [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringCloudMicroContainer [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.eureka-server [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.eureka-server [clean].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ApiGatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ConfigServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.EurekaClientApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.EurekaServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.GatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MIcroSmtpApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.RESTapi.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/IdeaProjects/SpringCloudMicroContainer&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\SpringCloudMicroContainer\config-server\src\main\resources\config" />
+      <recent name="C:\Users\user\IdeaProjects\SpringCloudMicroContainer" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="ConfigServerApplication" value="STOPPED" />
+              <entry key="EurekaServerApplication" value="STOPPED" />
+              <entry key="GatewayApplication" value="STOPPED" />
+              <entry key="MIcroSmtpApplication" value="STOPPED" />
+              <entry key="RESTapi" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.SpringCloudMicroContainer [build]">
+    <configuration name="SpringCloudMicroContainer [:REST:build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":REST:build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SpringCloudMicroContainer [:mIcro-smtp:build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":mIcro-smtp:build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SpringCloudMicroContainer [:mIcro-smtp:clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":mIcro-smtp:clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SpringCloudMicroContainer [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SpringCloudMicroContainer [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="config-server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.configserver.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="gateway.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MIcroSmtpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mIcro-smtp.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.microsmtp.MIcroSmtpApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RESTapi" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="REST.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.rest.RESTapi" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.SpringCloudMicroContainer [:mIcro-smtp:build]" />
+      <item itemvalue="Gradle.SpringCloudMicroContainer [:mIcro-smtp:clean]" />
+      <item itemvalue="Gradle.SpringCloudMicroContainer [:REST:build]" />
+      <item itemvalue="Gradle.SpringCloudMicroContainer [build]" />
+      <item itemvalue="Gradle.SpringCloudMicroContainer [clean]" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.MIcroSmtpApplication" />
+      <item itemvalue="Spring Boot.RESTapi" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.SpringCloudMicroContainer [build]" />
+        <item itemvalue="Gradle.SpringCloudMicroContainer [clean]" />
+        <item itemvalue="Gradle.SpringCloudMicroContainer [:mIcro-smtp:build]" />
+        <item itemvalue="Gradle.SpringCloudMicroContainer [:mIcro-smtp:clean]" />
+        <item itemvalue="Gradle.SpringCloudMicroContainer [:REST:build]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cff4397a-c9a0-4345-b23c-675ff760df42" name="Changes" comment="" />
+      <created>1767005194868</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1767005194868</updated>
+      <workItem from="1767005195767" duration="20909000" />
+      <workItem from="1767043794134" duration="500000" />
+      <workItem from="1767044324095" duration="14791000" />
+      <workItem from="1767174539103" duration="32371000" />
+      <workItem from="1767304383950" duration="4179000" />
+    </task>
+    <task id="LOCAL-00001" summary="Создан контейнер будующих микросервисов">
+      <option name="closed" value="true" />
+      <created>1767006053937</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1767006053937</updated>
+    </task>
+    <task id="LOCAL-00002" summary="настроен eureka-server">
+      <option name="closed" value="true" />
+      <created>1767016383050</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1767016383050</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Создан контейнер будующих микросервисов" />
+    <MESSAGE value="настроен eureka-server" />
+    <MESSAGE value="урааааааааааааааааааааааааааааа" />
+    <option name="LAST_COMMIT_MESSAGE" value="урааааааааааааааааааааааааааааа" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
